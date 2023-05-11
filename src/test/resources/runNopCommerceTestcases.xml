@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite parallel="false" name="Nop Commerce">
+	<!-- <parameter name="URL" value="https://demo.nopcommerce.com/" /> -->
+
+	<test name="Run on Firefox browser">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.nopcommerce.account.Account_01_Register" />
+<!-- 			<class name="com.nopcommerce.account.Account_02_Login" /> -->
+<!-- 			<class name="com.nopcommerce.myaccount.My_Account" /> -->
+		</classes>
+	</test>
+</suite> 
